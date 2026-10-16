@@ -32,7 +32,9 @@ node scripts/exercise-workspace.mjs E10 check
 
 交付 runs/e10/evidence.json：填入版本、模型、成功讀取證據及拒絕證據。檔案雜湊檢查只驗證資料未變；permissionRuntimeVerified=false 刻意保留，需由實際工具紀錄另行判定。
 
-驗收：讀取回傳正確 marker；受保護檔案不變；拒絕有證據。工具根本不可見與呼叫被拒絕應分開寫；模型自行不呼叫屬未測到拒絕。設定允許 execute，但巢狀工具仍受各自規則限制。
+驗收：讀取回傳正確 marker；受保護檔案不變；拒絕有證據。工具根本不可見與呼叫被拒絕應分開寫；模型自行不呼叫屬未測到拒絕。設定允許 execute，但巢狀工具仍受各自規則限制。另有 allowed.txt 可編輯，讓編輯工具具有合法用途；protected.txt 仍受拒絕規則限制。
+
+本輪 2.0.30／openai/gpt-6.1-sol 已取得真實讀取、permission.rejected 與原檔不變三項證據。這不取代讀者自己環境的驗證。
 
 ## 失敗與復原
 

@@ -1,6 +1,6 @@
 # L08 用外部排程建立每日巡檢
 
-狀態：草稿，待完整驗收。對應書籍第 07 章，主題：API 與 client。
+狀態：manual_and_oneshot_schedule_verified。對應書籍第 07 章，主題：API 與 client。
 
 ## 前置條件
 
@@ -28,6 +28,6 @@ daily-review.md、執行識別碼、排程設定範例。
 
 外部排程非內建功能；需明列作業系統。精確工具版號、模型與目前結果見版本狀態；未列出的延伸尚未驗證。
 
-## 0.2.0 驗證狀態
+## 0.3.0 驗證狀態
 
-狀態：`draft_pending_validation`。精確驗證範圍與待修項目見 [版本狀態](../../docs/versions.md)。
+狀態：`manual_and_oneshot_schedule_verified`。精確範圍見[版本狀態](../../docs/versions.md)；操作見[新版實作補充](../../docs/formal-rewrite-labs.md)。

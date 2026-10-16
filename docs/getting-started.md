@@ -1,6 +1,6 @@
 # 開始使用
 
-配套版本 0.2.0，書籍製作中。先在獨立目錄驗證本機資料與 MCP，再進入模型任務。
+配套版本 0.3.0，書籍製作中。先在獨立目錄驗證本機資料與 MCP，再進入模型任務。
 
 ## 已測環境
 
@@ -45,10 +45,10 @@ opencode
 
 examples/client-session.mjs 與 worktree.mjs 提供 client 路線。連線預設使用 Service.ensure；可用 ISSUEDESK_SERVER_URL 與 ISSUEDESK_SERVER_PASSWORD 指定服務，勿將密碼提交至 Git。
 
-SDK 的 `bun scripts/sdk-probe.mjs` 只驗證 host 建立、工作階段與關閉，不發送模型請求。SDK examples 的 --execute 會使用模型，仍待端到端驗收。部署外掛的查詢函式已測試，實際載入尚待修正；終端面板仍為未驗收草稿。
+SDK 的 `bun scripts/sdk-probe.mjs` 只驗證 host 建立、工作階段與關閉，不發送模型請求。SDK examples 的 --execute 會使用模型，須先指定模型與自己的登入資料來源；程式修改、文件修訂與非文件拒絕已有實測。部署外掛的目錄入口已通過實際查詢與錯誤輸入測試；終端面板仍待畫面驗收。操作見[新版實作補充](formal-rewrite-labs.md)。
 
 每項案例的驗證範圍見 [版本狀態](versions.md)。不要把模型回答「做完」單獨當作完成證據。
 
 ## 章末演練
 
-前往 [章末練習](../exercises/README.md) 選擇 E10、E11、E13 或 E14。E13 可以直接以 `node scripts/fault-recovery.mjs` 執行；E14 的本機基線可用 `node scripts/regression-report.mjs baseline` 產生。完整權限、遷移與升級行為仍須另外完成 OpenCode／模型驗證。
+前往 [章末練習](../exercises/README.md) 選擇 E10、E11、E13 或 E14。E13 可以直接以 `node scripts/fault-recovery.mjs` 執行；E14 的本機基線可用 `node scripts/regression-report.mjs baseline` 產生。E10 已取得一次真實權限驗證；遷移與跨版本升級仍有未測項目，見版本表。

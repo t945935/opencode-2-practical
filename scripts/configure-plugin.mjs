@@ -1,0 +1,11 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {fileURLToPath} from 'node:url';
+const target=process.argv[2];
+if(!target || target.startsWith('--'))throw new Error('Usage: node scripts/configure-plugin.mjs NEW_DIRECTORY');
+const directory=resolve(target);
+await mkdir(directory);
+const plugin=fileURLToPath(new URL('../plugins/deployment',import.meta.url));
+await writeFile(join(directory,'opencode.json'),JSON.stringify({plugins:[plugin]},null,2)+'\n',{flag:'wx'});
+await writeFile(join(directory,'README.md'),'# Deployment plugin practice\n\nFictional api and worker status only.\n',{flag:'wx'});
+console.log(JSON.stringify({directory,plugin,modelCalled:false},null,2));

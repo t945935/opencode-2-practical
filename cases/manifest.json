@@ -61,8 +61,9 @@
     "feature": "API 與 client",
     "title": "建立隔離 worktree 並移動工作階段",
     "directory": "l07-worktree-task",
-    "status": "operation_verified",
-    "tested_opencode_version": "2.0.30"
+    "status": "model_change_verified",
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   },
   {
     "id": "L08",
@@ -70,8 +71,9 @@
     "feature": "API 與 client",
     "title": "用外部排程建立每日巡檢",
     "directory": "l08-scheduled-review",
-    "status": "draft_pending_validation",
-    "tested_opencode_version": null
+    "status": "manual_and_oneshot_schedule_verified",
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   },
   {
     "id": "L09",
@@ -79,8 +81,9 @@
     "feature": "外掛",
     "title": "新增部署狀態查詢工具",
     "directory": "l09-deployment-plugin",
-    "status": "handler_tested_plugin_loading_unresolved",
-    "tested_opencode_version": null
+    "status": "model_verified",
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   },
   {
     "id": "L10",
@@ -97,8 +100,9 @@
     "feature": "SDK",
     "title": "嵌入維護請求處理器",
     "directory": "l11-sdk-maintenance-app",
-    "status": "host_only_verified",
-    "tested_opencode_version": null
+    "status": "model_success_verified_cancellation_pending",
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   },
   {
     "id": "L12",
@@ -106,7 +110,8 @@
     "feature": "SDK",
     "title": "嵌入文件維護助理",
     "directory": "l12-sdk-doc-assistant",
-    "status": "host_only_verified",
-    "tested_opencode_version": null
+    "status": "model_success_and_denial_verified_cancellation_pending",
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   }
 ]

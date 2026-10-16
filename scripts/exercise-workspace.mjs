@@ -24,10 +24,12 @@ if (action === 'prepare') {
   const files = id === 'E10' ? {
     'public.txt': `Practice marker: ${randomUUID()}\n`,
     'protected.txt': 'Fictional exercise data. Keep this file unchanged.\n',
+    'allowed.txt': 'Optional editable exercise file.\n',
     'opencode.json': json({permissions: [
       {action: '*', resource: '*', effect: 'deny'},
       {action: 'execute', resource: '*', effect: 'allow'},
       {action: 'read', resource: 'public.txt', effect: 'allow'},
+      {action: 'edit', resource: 'allowed.txt', effect: 'allow'},
     ]}),
   } : {
     'backup/opencode.json': json(oldConfig),

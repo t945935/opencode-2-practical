@@ -5,8 +5,10 @@
     "directory": "e10-permission-denial",
     "title": "確認允許與拒絕的操作",
     "kind": "chapter_exercise",
-    "status": "local_file_checks_passed_runtime_pending",
-    "counted_as_core_case": false
+    "status": "model_read_denial_and_file_integrity_verified",
+    "counted_as_core_case": false,
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   },
   {
     "id": "E11",

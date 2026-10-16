@@ -1,6 +1,6 @@
 # L07 建立隔離 worktree 並移動工作階段
 
-狀態：操作驗證通過。對應書籍第 07 章，主題：API 與 client。
+狀態：model_change_verified。對應書籍第 07 章，主題：API 與 client。
 
 ## 前置條件
 
@@ -28,6 +28,6 @@ worktree 列表、session 位置、git diff。
 
 本機 Git。精確工具版號、模型與目前結果見版本狀態；未列出的延伸尚未驗證。
 
-## 0.2.0 驗證狀態
+## 0.3.0 驗證狀態
 
-狀態：`operation_verified`。精確驗證範圍與待修項目見 [版本狀態](../../docs/versions.md)。
+狀態：`model_change_verified`。精確範圍見[版本狀態](../../docs/versions.md)；操作見[新版實作補充](../../docs/formal-rewrite-labs.md)。

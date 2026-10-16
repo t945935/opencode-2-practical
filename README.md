@@ -9,7 +9,7 @@
 
 ## 目前提供什麼
 
-目前為 **製作中配套 0.2.0**：提供 IssueDesk 資料處理、真正的 MCP server、自動測試、API／SDK 範例及外掛草稿。OpenCode 2.0.30 的 Code Mode／MCP 已完成兩輪真實模型驗證，worktree 案例也已通過操作驗證。**其餘案例仍有待修或未驗收項目，這不是完整書籍第一版配套。**
+目前為 **製作中配套 0.3.0**：提供 IssueDesk 資料處理、真正的 MCP server、自動測試、API／SDK 範例及外掛草稿。OpenCode 2.0.30 的 Code Mode／MCP、worktree 修改、部署工具及兩個 SDK 正向流程已完成模型驗證；唯讀巡檢另通過手動與一次性排程。**跨介面、第二主機、背景調度、終端面板及取消等仍有未驗收項目，這不是完整書籍第一版配套。**
 
 可先執行 `npm ci`、`npm test`、`node scripts/mcp-smoke.mjs`。模型任務需要另行設定 OpenCode 與可用帳號；詳見 [開始使用](docs/getting-started.md)。
 

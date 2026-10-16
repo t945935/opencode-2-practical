@@ -1,6 +1,6 @@
 # L09 新增部署狀態查詢工具
 
-狀態：函式已測，載入待修。對應書籍第 08 章，主題：外掛。
+狀態：model_verified。對應書籍第 08 章，主題：外掛。
 
 ## 前置條件
 
@@ -28,6 +28,6 @@
 
 本機假資料；真實部署 API 為延伸。精確工具版號、模型與目前結果見版本狀態；未列出的延伸尚未驗證。
 
-## 0.2.0 驗證狀態
+## 0.3.0 驗證狀態
 
-狀態：`handler_tested_plugin_loading_unresolved`。精確驗證範圍與待修項目見 [版本狀態](../../docs/versions.md)。
+狀態：`model_verified`。精確範圍見[版本狀態](../../docs/versions.md)；操作見[新版實作補充](../../docs/formal-rewrite-labs.md)。

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {deploymentStatus} from '../plugins/deployment/index.mjs';
+import {deploymentStatus} from '../plugins/deployment/index.js';
 test('deployment tool exposes fictional state and rejects unknown services',()=>{
  assert.equal(deploymentStatus({service:'api'}).status,'healthy');
  assert.equal(deploymentStatus({service:'worker'}).status,'degraded');

@@ -1,6 +1,6 @@
 # L11 嵌入維護請求處理器
 
-狀態：僅 host 結構已測。對應書籍第 09 章，主題：SDK。
+狀態：model_success_verified_cancellation_pending。對應書籍第 09 章，主題：SDK。
 
 ## 前置條件
 
@@ -28,6 +28,6 @@ host 可建立、事件可讀、完成可辨認，關閉不遺留執行資源。
 
 本機應用；不預設部署到公網。精確工具版號、模型與目前結果見版本狀態；未列出的延伸尚未驗證。
 
-## 0.2.0 驗證狀態
+## 0.3.0 驗證狀態
 
-狀態：`host_only_verified`。精確驗證範圍與待修項目見 [版本狀態](../../docs/versions.md)。
+狀態：`model_success_verified_cancellation_pending`。精確範圍見[版本狀態](../../docs/versions.md)；操作見[新版實作補充](../../docs/formal-rewrite-labs.md)。

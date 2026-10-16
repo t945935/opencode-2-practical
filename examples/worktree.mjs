@@ -1,11 +1,15 @@
-import { connect } from '../lib/client.mjs';
+import {selectedModel} from '../lib/model.mjs';
+import { connect, complete } from '../lib/client.mjs';
 import { resolve } from 'node:path';
 const directory=resolve(process.argv[2] ?? '.');
+const execute=process.argv.includes('--execute');
+const model=execute ? selectedModel() : undefined;
 const client=await connect();
-const session=await client.session.create({location:{directory},title:'IssueDesk isolated task'});
+const session=await client.session.create({location:{directory},title:'IssueDesk isolated task',...(model ? {model} : {})});
 const worktree=await client.worktree.create({projectID:session.projectID,name:'issuedesk-'+Date.now()});
 await client.session.move({sessionID:session.id,directory:worktree.directory});
 await client.session.wait({sessionID:session.id},{signal:AbortSignal.timeout(30000)});
 const moved=await client.session.get({sessionID:session.id});
 if(moved.location.directory!==worktree.directory)throw new Error('Session has not moved to requested worktree');
-console.log(JSON.stringify({sessionID:session.id,worktree:worktree.directory,location:moved.location},null,2));
+const result=execute ? await complete(client,moved,'Create only WORKTREE-NOTE.md with a short note identifying this as an IssueDesk practice worktree. Read package.json to confirm the project, but do not modify other files. Report the actual directory and file created.') : undefined;
+console.log(JSON.stringify({sessionID:session.id,worktree:worktree.directory,location:moved.location,...(result ? {result} : {})},null,2));
