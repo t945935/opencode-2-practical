@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.DS_Store
+runs/

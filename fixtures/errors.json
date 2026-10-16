@@ -1,0 +1,50 @@
+[
+  {
+    "id": "EVT-001",
+    "issue_id": "ISS-102",
+    "count": 18,
+    "message": "duplicate item created"
+  },
+  {
+    "id": "EVT-002",
+    "issue_id": "ISS-101",
+    "count": 7,
+    "message": "blank row ignored"
+  },
+  {
+    "id": "EVT-003",
+    "issue_id": "ISS-104",
+    "count": 5,
+    "message": "missing config"
+  },
+  {
+    "id": "EVT-004",
+    "issue_id": "ISS-103",
+    "count": 3,
+    "message": "date format mismatch"
+  },
+  {
+    "id": "EVT-005",
+    "issue_id": "ISS-102",
+    "count": 9,
+    "message": "duplicate import"
+  },
+  {
+    "id": "EVT-006",
+    "issue_id": null,
+    "count": 4,
+    "message": "unexpected input type"
+  },
+  {
+    "id": "EVT-007",
+    "issue_id": "ISS-101",
+    "count": 2,
+    "message": "empty row"
+  },
+  {
+    "id": "EVT-008",
+    "issue_id": null,
+    "count": 1,
+    "message": "unknown report field"
+  }
+]

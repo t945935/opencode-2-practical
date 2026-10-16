@@ -1,0 +1,110 @@
+[
+  {
+    "id": "L01",
+    "chapter": 4,
+    "feature": "共用背景服務",
+    "title": "在終端與網頁接續同一個修復任務",
+    "directory": "l01-service-session",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L02",
+    "chapter": 4,
+    "feature": "共用背景服務",
+    "title": "從另一台電腦接續開發主機工作",
+    "directory": "l02-remote-pairing",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L03",
+    "chapter": 5,
+    "feature": "Code Mode",
+    "title": "批次整理問題並建立待辦",
+    "directory": "l03-issue-triage",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L04",
+    "chapter": 5,
+    "feature": "Code Mode",
+    "title": "彙整錯誤與既有問題的關係",
+    "directory": "l04-error-digest",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L05",
+    "chapter": 6,
+    "feature": "背景任務",
+    "title": "主代理修改、子代理背景審查",
+    "directory": "l05-background-review",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L06",
+    "chapter": 6,
+    "feature": "背景任務",
+    "title": "測試與建置在背景進行",
+    "directory": "l06-background-tests",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L07",
+    "chapter": 7,
+    "feature": "API 與 client",
+    "title": "建立隔離 worktree 並移動工作階段",
+    "directory": "l07-worktree-task",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L08",
+    "chapter": 7,
+    "feature": "API 與 client",
+    "title": "用外部排程建立每日巡檢",
+    "directory": "l08-scheduled-review",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L09",
+    "chapter": 8,
+    "feature": "外掛",
+    "title": "新增部署狀態查詢工具",
+    "directory": "l09-deployment-plugin",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L10",
+    "chapter": 8,
+    "feature": "外掛",
+    "title": "新增終端任務資訊面板",
+    "directory": "l10-tui-task-panel",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L11",
+    "chapter": 9,
+    "feature": "SDK",
+    "title": "嵌入維護請求處理器",
+    "directory": "l11-sdk-maintenance-app",
+    "status": "planned",
+    "tested_opencode_version": null
+  },
+  {
+    "id": "L12",
+    "chapter": 9,
+    "feature": "SDK",
+    "title": "嵌入文件維護助理",
+    "directory": "l12-sdk-doc-assistant",
+    "status": "planned",
+    "tested_opencode_version": null
+  }
+]

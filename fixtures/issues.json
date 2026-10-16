@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ISS-101",
+    "title": "匯入空白列時沒有提示",
+    "severity": "medium",
+    "status": "open",
+    "labels": [
+      "import",
+      "validation"
+    ]
+  },
+  {
+    "id": "ISS-102",
+    "title": "重複匯入會建立重複待辦",
+    "severity": "high",
+    "status": "open",
+    "labels": [
+      "import",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "ISS-103",
+    "title": "報告日期顯示格式不一致",
+    "severity": "low",
+    "status": "open",
+    "labels": [
+      "report"
+    ]
+  },
+  {
+    "id": "ISS-104",
+    "title": "缺少設定檔時錯誤訊息不清楚",
+    "severity": "medium",
+    "status": "open",
+    "labels": [
+      "config"
+    ]
+  },
+  {
+    "id": "ISS-105",
+    "title": "完成任務仍出現在待處理清單",
+    "severity": "high",
+    "status": "closed",
+    "labels": [
+      "filter"
+    ]
+  },
+  {
+    "id": "ISS-106",
+    "title": "README 缺少測試方式",
+    "severity": "low",
+    "status": "open",
+    "labels": [
+      "docs"
+    ]
+  }
+]
