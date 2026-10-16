@@ -1,0 +1,11 @@
+import { connect } from '../lib/client.mjs';
+import { resolve } from 'node:path';
+const directory=resolve(process.argv[2] ?? '.');
+const client=await connect();
+const session=await client.session.create({location:{directory},title:'IssueDesk isolated task'});
+const worktree=await client.worktree.create({projectID:session.projectID,name:'issuedesk-'+Date.now()});
+await client.session.move({sessionID:session.id,directory:worktree.directory});
+await client.session.wait({sessionID:session.id},{signal:AbortSignal.timeout(30000)});
+const moved=await client.session.get({sessionID:session.id});
+if(moved.location.directory!==worktree.directory)throw new Error('Session has not moved to requested worktree');
+console.log(JSON.stringify({sessionID:session.id,worktree:worktree.directory,location:moved.location},null,2));

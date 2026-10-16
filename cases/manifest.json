@@ -5,7 +5,7 @@
     "feature": "共用背景服務",
     "title": "在終端與網頁接續同一個修復任務",
     "directory": "l01-service-session",
-    "status": "planned",
+    "status": "draft_pending_validation",
     "tested_opencode_version": null
   },
   {
@@ -14,7 +14,7 @@
     "feature": "共用背景服務",
     "title": "從另一台電腦接續開發主機工作",
     "directory": "l02-remote-pairing",
-    "status": "planned",
+    "status": "draft_pending_validation",
     "tested_opencode_version": null
   },
   {
@@ -23,8 +23,9 @@
     "feature": "Code Mode",
     "title": "批次整理問題並建立待辦",
     "directory": "l03-issue-triage",
-    "status": "planned",
-    "tested_opencode_version": null
+    "status": "model_verified",
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   },
   {
     "id": "L04",
@@ -32,8 +33,9 @@
     "feature": "Code Mode",
     "title": "彙整錯誤與既有問題的關係",
     "directory": "l04-error-digest",
-    "status": "planned",
-    "tested_opencode_version": null
+    "status": "model_verified",
+    "tested_opencode_version": "2.0.30",
+    "tested_model": "openai/gpt-6.1-sol"
   },
   {
     "id": "L05",
@@ -41,7 +43,7 @@
     "feature": "背景任務",
     "title": "主代理修改、子代理背景審查",
     "directory": "l05-background-review",
-    "status": "planned",
+    "status": "draft_pending_validation",
     "tested_opencode_version": null
   },
   {
@@ -50,7 +52,7 @@
     "feature": "背景任務",
     "title": "測試與建置在背景進行",
     "directory": "l06-background-tests",
-    "status": "planned",
+    "status": "draft_pending_validation",
     "tested_opencode_version": null
   },
   {
@@ -59,8 +61,8 @@
     "feature": "API 與 client",
     "title": "建立隔離 worktree 並移動工作階段",
     "directory": "l07-worktree-task",
-    "status": "planned",
-    "tested_opencode_version": null
+    "status": "operation_verified",
+    "tested_opencode_version": "2.0.30"
   },
   {
     "id": "L08",
@@ -68,7 +70,7 @@
     "feature": "API 與 client",
     "title": "用外部排程建立每日巡檢",
     "directory": "l08-scheduled-review",
-    "status": "planned",
+    "status": "draft_pending_validation",
     "tested_opencode_version": null
   },
   {
@@ -77,7 +79,7 @@
     "feature": "外掛",
     "title": "新增部署狀態查詢工具",
     "directory": "l09-deployment-plugin",
-    "status": "planned",
+    "status": "handler_tested_plugin_loading_unresolved",
     "tested_opencode_version": null
   },
   {
@@ -86,7 +88,7 @@
     "feature": "外掛",
     "title": "新增終端任務資訊面板",
     "directory": "l10-tui-task-panel",
-    "status": "planned",
+    "status": "source_draft",
     "tested_opencode_version": null
   },
   {
@@ -95,7 +97,7 @@
     "feature": "SDK",
     "title": "嵌入維護請求處理器",
     "directory": "l11-sdk-maintenance-app",
-    "status": "planned",
+    "status": "host_only_verified",
     "tested_opencode_version": null
   },
   {
@@ -104,7 +106,7 @@
     "feature": "SDK",
     "title": "嵌入文件維護助理",
     "directory": "l12-sdk-doc-assistant",
-    "status": "planned",
+    "status": "host_only_verified",
     "tested_opencode_version": null
   }
 ]

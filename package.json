@@ -1,0 +1,20 @@
+{
+  "name": "opencode-2-practical-reader",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "mcp": "node mcp/server.mjs",
+    "demo": "node scripts/demo.mjs"
+  },
+  "dependencies": {
+    "@opencode/client": "2.0.30",
+    "@opencode/plugin": "2.0.30",
+    "@opencode/sdk": "2.0.30",
+    "@modelcontextprotocol/sdk": "1.32.1"
+  }
+}
