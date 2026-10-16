@@ -1,0 +1,38 @@
+[
+  {
+    "id": "E10",
+    "chapter": 10,
+    "directory": "e10-permission-denial",
+    "title": "確認允許與拒絕的操作",
+    "kind": "chapter_exercise",
+    "status": "local_file_checks_passed_runtime_pending",
+    "counted_as_core_case": false
+  },
+  {
+    "id": "E11",
+    "chapter": 11,
+    "directory": "e11-migration-rollback",
+    "title": "遷移設定並演練回復",
+    "kind": "chapter_exercise",
+    "status": "fixture_conversion_restore_checked_runtime_pending",
+    "counted_as_core_case": false
+  },
+  {
+    "id": "E13",
+    "chapter": 13,
+    "directory": "e13-fault-diagnosis",
+    "title": "診斷損毀資料並保留現場",
+    "kind": "chapter_exercise",
+    "status": "local_recovery_verified",
+    "counted_as_core_case": false
+  },
+  {
+    "id": "E14",
+    "chapter": 14,
+    "directory": "e14-upgrade-regression",
+    "title": "建立升級前後的回歸紀錄",
+    "kind": "chapter_exercise",
+    "status": "local_baseline_verified_upgrade_pending",
+    "counted_as_core_case": false
+  }
+]

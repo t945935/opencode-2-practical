@@ -16,3 +16,13 @@
 | L10 | 外掛 | [新增終端任務資訊面板](../cases/l10-tui-task-panel/README.md) | 來源草稿，待驗收 |
 | L11 | SDK | [嵌入維護請求處理器](../cases/l11-sdk-maintenance-app/README.md) | 僅 host 結構已測 |
 | L12 | SDK | [嵌入文件維護助理](../cases/l12-sdk-doc-assistant/README.md) | 僅 host 結構已測 |
+
+## 入門、整合與章末練習
+
+| 章 | 單元 | 計數 |
+|---|---|---|
+| 3 | 第一個可驗收任務 | 1 個入門練習，重用 IssueDesk 資料 |
+| 12 | IssueDesk 維護工作台 | 1 個整合專案，串接既有案例 |
+| 10、11、13、14 | [權限、遷移、診斷與升級回歸](../exercises/README.md) | 4 個章末練習，獨立於 L01–L12 |
+
+合計 18 個教學單元，對外維持「12 個核心案例＋1 個整合專案」，另附 4 個章末演練。完整書稿仍在製作中。

@@ -48,3 +48,7 @@ examples/client-session.mjs 與 worktree.mjs 提供 client 路線。連線預設
 SDK 的 `bun scripts/sdk-probe.mjs` 只驗證 host 建立、工作階段與關閉，不發送模型請求。SDK examples 的 --execute 會使用模型，仍待端到端驗收。部署外掛的查詢函式已測試，實際載入尚待修正；終端面板仍為未驗收草稿。
 
 每項案例的驗證範圍見 [版本狀態](versions.md)。不要把模型回答「做完」單獨當作完成證據。
+
+## 章末演練
+
+前往 [章末練習](../exercises/README.md) 選擇 E10、E11、E13 或 E14。E13 可以直接以 `node scripts/fault-recovery.mjs` 執行；E14 的本機基線可用 `node scripts/regression-report.mjs baseline` 產生。完整權限、遷移與升級行為仍須另外完成 OpenCode／模型驗證。
